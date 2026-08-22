@@ -25,7 +25,10 @@
             printf("Error division by zero\n"); 
             } 
             else result = num1 / num2;
-                break;
+                break; 
+
+            default: printf("Invalid operator\n");
+                return 1;
         }
         printf("Result: %.2lf %c %.2lf = %.2lf\n", num1, op, num2, result);
         return 0;
